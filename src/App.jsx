@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import NotesList from './/NoteList/NotesList';
-import NoteForm from './/NoteForm/NoteForm';
+import NotesList from '../src/components/NoteList/NotesList';
+import NoteForm from '../src/components/NoteForm/NoteForm';
 import './App.css';
 
 const App = () => {
